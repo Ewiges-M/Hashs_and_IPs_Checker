@@ -1,4 +1,4 @@
-# Multiple Hash( Sha256 ) and URL Checker with Virustotal and Hybrid Analysis
+# Multiple Hash ( Sha256 ) and URL Checker with Virustotal and Hybrid Analysis
 
 This Program used for analysis multiple URL/IP by Virustotal and analysis multiple hash with Hybrid Analysis then create report result to you with clearly format.
 If you have tons of IOCs this program can help you for reducing analysis time. You can quickly filter out the clean artifacts and have more time to focus with real IOCs.
@@ -8,7 +8,7 @@ If you have tons of IOCs this program can help you for reducing analysis time. Y
 - Check IP Geolocation with [ipinfo](https://ipinfo.io/)
 - Check multiple Hash( only SHA256 ) with [Hybrid Analysis](https://www.hybrid-analysis.com/) then list result to csv file.
 
-## Getting started**
+## Getting started
 
 1. Put API keys of Virustotal, IPinfo and Hybrid Analysis to file **init.json**.
 
@@ -41,11 +41,12 @@ www.google.com
 1.1.1.1
 ```
 ## How to get API Key
-1. [Hybrid Analysis API Key](https://www.hybrid-analysis.com/docs/api/v2)
 
-2. [Virustotal Api Key](https://developers.virustotal.com/v3.0/reference#public-vs-premium-api)
+- [Hybrid Analysis API Key](https://www.hybrid-analysis.com/docs/api/v2)
 
-3. For IPINFO go to [IPinfo](https://ipinfo.io/) then register, login and select Token button as the picture below.
+- [Virustotal Api Key](https://developers.virustotal.com/v3.0/reference#public-vs-premium-api)
+
+- For IPINFO go to [IPinfo](https://ipinfo.io/) then register, login and select Token button as the picture below.
 
 <img width="1239" alt="Screen Shot 2564-08-20 at 00 18 24" src="https://user-images.githubusercontent.com/70726596/130114477-7ce9bd98-672e-4875-b5ec-04e94fbe41d6.png">
 
@@ -66,11 +67,11 @@ python3 multiple_hash_checker.py
 
 ## Result
 
-**Hash_IOCs_results**
+**Hash_IOCs_results.csv**
 
 ![image](https://user-images.githubusercontent.com/70726596/130112177-4d3f79fb-7d03-4157-b418-3fd01a2ed0b7.png)
 
-**URL/IP_IOCs_results**
+**URL/IP_IOCs_results.csv**
 
 ![image](https://user-images.githubusercontent.com/70726596/130115178-b6db7847-0ea8-498d-89c3-ddce3e605bb6.png)
 
@@ -79,8 +80,8 @@ python3 multiple_hash_checker.py
 
 ## API Limit
 
-1. Virustotal API Key (free user) : 500 API requests per day and a rate of 4 API requests per minute.
+- Virustotal API Key (free user) : 500 API requests per day and a rate of 4 API requests per minute.
 
-2. IPinfo Token (free user) : 50,000 API requests per month.
+- IPinfo Token (free user) : 50,000 API requests per month.
 
-3. Hybrid Analysis API Key (free user) : 200 API requests per minute and 2,000 API requests per hour.
+- Hybrid Analysis API Key (free user) : 200 API requests per minute and 2,000 API requests per hour.
