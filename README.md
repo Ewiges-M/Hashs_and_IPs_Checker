@@ -1,1 +1,1 @@
-# Hashs_and_IPs_Checker
+# Multiple Hash and IP Checker with Virustotal and Hybrid Analysis
